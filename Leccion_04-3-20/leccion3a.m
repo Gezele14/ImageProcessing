@@ -16,9 +16,9 @@ Tr = maketform('affine', T'); %Crear la transformacion
 
 B=rotar(A,30);
 
-C=limpiar(A);
+C=limpiar(B);
 
-subplot(1,3,1)
+subplot(1,3,1) 
 imshow(A)
 
 subplot(1,3,2)
