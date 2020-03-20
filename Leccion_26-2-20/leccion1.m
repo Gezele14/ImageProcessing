@@ -20,7 +20,7 @@ R5_2 = im2double(R5)
 
 %Guardar los canales en matrices iguales
 R = X(:,:,1);
-B = X(:,:,2);
+G = X(:,:,2);
 B = X(:,:,3);
 
 %G uardar imagen con solo el canal rojo habilidado
