@@ -13,4 +13,5 @@ for k = rango
   subplot(1,2,1)
   imshow(A)
   title('Normal')
+  pause(0.1)
 end
